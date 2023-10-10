@@ -48,7 +48,8 @@ on:
   #   - cron: '0 3 * * TUE'
 
   # 4.1
-
+  workflow_dispatch: 
+  
 jobs:
   build: 
     runs-on: ubuntu-latest
